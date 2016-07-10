@@ -59,6 +59,13 @@ IPS-Modul zur Steuerung des milight-RGBW-Gateways (auch bekannt als Limitless LE
         Setzt die Helligkeit für den Weiß-Modus.
         Erlaubte Werte für die Helligkeit sind 0 bis 255.  
 
+   `void MILIGHT_SetDiscoMode(integer $Mode);`  
+        Setzt den Programm Modus.
+        Erlaubte Werte für die Programme sind 1 bis 8.  
+
+   `void MILIGHT_SetDiscoSpeed(integer $speed);`  
+        Setzt die Programm Schnelligkeit.
+        Erlaubte Werte für die Gechwindigkeit + und -.  
 
 ## 6. Changelog
 
