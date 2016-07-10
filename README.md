@@ -1,5 +1,5 @@
 ﻿# milight
-IPS-Modul zur Steuerung des milight-RGBW-Gateways (auch bekannt als Limitless LED oder IWY-Light)
+IPS-Modul zur Steuerung des milight-RGBW-Gateways
 
 ## Inhalt
 
@@ -21,6 +21,8 @@ IPS-Modul zur Steuerung des milight-RGBW-Gateways (auch bekannt als Limitless LE
 
    *   Setzen der Farbe
    *   Setzen der Helligkeit
+   *   Setzen der Programm Modi
+   *   Setzen der Programm Geschwindigkeit
 
 ## 2. Voraussetzungen
 
@@ -64,9 +66,9 @@ IPS-Modul zur Steuerung des milight-RGBW-Gateways (auch bekannt als Limitless LE
         Erlaubte Werte für die Programme sind 1 bis 8.  
 
    `void MILIGHT_SetDiscoSpeed(integer $speed);`  
-        Setzt die Programm Schnelligkeit.
+        Setzt die Programm Geschwindigkeit.
         Erlaubte Werte für die Gechwindigkeit + und -.  
 
 ## 6. Changelog
 
-   0.1. : erste Beta-Version für IPS 4.x
+   1.0. : erste Version für IPS 4.x
