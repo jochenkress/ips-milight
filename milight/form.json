@@ -30,7 +30,7 @@
 		{
 			"type": "Button",
 			"label": "OFF",
-			"onClick": "MILIGHT_SetBrightness($id, 0);"
+			"onClick": "MILIGHT_SetWhite($id, 0);"
 		},
 
 		{
@@ -69,7 +69,7 @@
 			"minimum": 0,
 			"maximum": 255,
 			"caption": "Brightness",
-			"onChange": "MILIGHT_SetBrightness($id, $ValueL);"
+			"onChange": "MILIGHT_SetWhite($id, $ValueL);"
 		},
 		{
 			"type": "Label",
